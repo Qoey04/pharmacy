@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - MyPharma</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">MyPharma</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="upload-prescription.html">Upload Prescription</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PI Banner -->
+<section class="pi-banner text-white text-center py-4 mt-5">
+  <div class="container">
+    <h2 class="fw-bold mb-2">Our Product Range</h2>
+    <p class="mb-3">All the Medicines You Need in One Place</p>
+  </div>
+</section>
+
+<!-- All Products (Horizontal Scroll) -->
+<section class="py-5">
+  <div class="container">
+    <h3 class="text-center mb-4">All Products</h3>
+    <div class="product-scroll d-flex gap-4 overflow-auto pb-3">
+      <div class="card text-center shadow-sm product-card flex-shrink-0" style="width: 200px;">
+        <img src="img/white back.jpeg" class="card-img-top" alt="Paracetamol">
+        <div class="card-body">
+          <h5 class="card-title">Paracetamol</h5>
+          <p class="card-text">$5.00</p>
+        </div>
+      </div>
+      <div class="card text-center shadow-sm product-card flex-shrink-0" style="width: 200px;">
+        <img src="img/parecta (2).jpeg" class="card-img-top" alt="Ibuprofen">
+        <div class="card-body">
+          <h5 class="card-title">Ibuprofen</h5>
+          <p class="card-text">$7.50</p>
+        </div>
+      </div>
+      <div class="card text-center shadow-sm product-card flex-shrink-0" style="width: 200px;">
+        <img src="img/vitamin med.jpeg" class="card-img-top" alt="Vitamin C">
+        <div class="card-body">
+          <h5 class="card-title">Vitamin C</h5>
+          <p class="card-text">$12.00</p>
+        </div>
+      </div>
+      <div class="card text-center shadow-sm product-card flex-shrink-0" style="width: 200px;">
+        <img src="img/med 1.jpg" class="card-img-top" alt="Aspirin">
+        <div class="card-body">
+          <h5 class="card-title">Aspirin</h5>
+          <p class="card-text">$4.50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3">
+  &copy; 2025 MyPharma. All Rights Reserved.
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

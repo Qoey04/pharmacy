@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPharma</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* PI Banner */
+    .pi-banner {
+      background: linear-gradient(90deg, #0d6efd, #20c997);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Product Section */
+    .products {
+      padding: 40px 20px;
+      background-color: #f8f9fa;
+    }
+
+    .product-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      width: 250px;
+      transition: transform 0.2s;
+    }
+
+    .product img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="img/pharma pic.jpg" alt="MyPharma Logo" width="40" height="40" class="me-2">
+      MyPharma
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="upload-prescription.html">Upload Prescription</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PI Banner -->
+<section class="pi-banner">
+  <div class="container">
+    <h2 class="fw-bold">Your Trusted Online Pharmacy</h2>
+    <p>Quality Medicines • Fast Delivery • Affordable Prices</p>
+    <a href="products.html" class="btn btn-light btn-sm fw-bold">Shop Now</a>
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="products">
+  <div class="container">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="img/white back.jpeg" alt="Paracetamol">
+        <h3>Paracetamol</h3>
+        <p>$5.00</p>
+        <a href="#" class="btn btn-primary btn-sm">View</a>
+      </div>
+
+      <div class="product">
+        <img src="img/parecta (2).jpeg" alt="Ibuprofen">
+        <h3>Ibuprofen</h3>
+        <p>$7.50</p>
+        <a href="#" class="btn btn-primary btn-sm">View</a>
+      </div>
+
+      <div class="product">
+        <img src="img/vitamin med.jpeg" alt="Vitamin C">
+        <h3>Vitamin C</h3>
+        <p>$12.00</p>
+        <a href="#" class="btn btn-primary btn-sm">View</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4 pb-2 mt-5">
+  <div class="container text-center">
+    <h5 class="mb-3">MyPharma</h5>
+    <p>Quality Medicines • Fast Delivery • Affordable Prices</p>
+    <div class="mb-3">
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+    </div>
+    <p class="mb-0">&copy; 2025 MyPharma. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
